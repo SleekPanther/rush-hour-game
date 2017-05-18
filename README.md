@@ -17,7 +17,7 @@ Unfortunately I can't compile code for Mac
   - Next number is [length of the special vehicle] (how many coordinate pairs)
   - Then the coordinates of the special vehicle one 1 line (e.g for `length=2`, coordinates are: x<sub>1</sub> y<sub>1</sub> x<sub>2</sub> y<sub>2</sub>)
   - Then [length of the 1st horizontal vehicle]
-  - Followed by its coordiantes
+  - Followed by its coordinates
   - Then the vertical vehicles, length followed by their coordinates
 - The current moves & vehicle positions are saved to the progress file: `.delete_this_file_if_program_dies`  
   Sometimes the whole program will crash & `vector` will go out of bounds if the file is corrupted
