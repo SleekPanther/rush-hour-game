@@ -14,11 +14,11 @@ Unfortunately I can't compile code for Mac
 ## Code Notes
 - All board setups are stored in vectors as a list of integers, but can also be read from their respective file
   - 1st line is [number of horizontal vehicles] followed by [number of vertical vehicles]
-  - Next number is the length of the special vehicle (how many coordinate pairs)
-  - Then the coordinates of the special vehicle one 1 line
-  - Then the length of the 1st horizontal vehicle
+  - Next number is [length of the special vehicle] (how many coordinate pairs)
+  - Then the coordinates of the special vehicle one 1 line (e.g for `length=2`, coordinates are: x<sub>1</sub> y<sub>1</sub> x<sub>2</sub> y<sub>2</sub>)
+  - Then [length of the 1st horizontal vehicle]
   - Followed by its coordiantes
-  - Then the vertical vehicles
+  - Then the vertical vehicles, length followed by their coordinates
 - The current moves & vehicle positions are saved to the progress file: `.delete_this_file_if_program_dies`  
   Sometimes the whole program will crash & `vector` will go out of bounds if the file is corrupted
   Simply delete it & the program will create a new one
