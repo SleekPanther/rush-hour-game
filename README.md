@@ -1,6 +1,6 @@
 # Rush Hour Game
 
-The classic board game recreated in `C++` using OpenGL
+The [classic board game](https://en.wikipedia.org/wiki/Rush_Hour_(board_game)) implemented in `C++` using OpenGL
 
 # [Download (windows only)](https://github.com/SleekPanther/rush-hour-game/releases/latest)
 
